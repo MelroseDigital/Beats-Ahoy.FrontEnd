@@ -9,6 +9,9 @@ import Questions from "./components/questions/Questions";
 import Dashboard from "./components/userPages/Dashboard";
 import Profile from "./components/profile";
 import Playlists from "./components/playlist";
+import Footer from "./components/navbar/footer";
+import Bottom from "./components/navbar/footer";
+
 
 export const userContext = createContext();
 
@@ -30,10 +33,13 @@ function App() {
                         <Route path="profile" element={<Profile/>} />
                         <Route path="dashboard" element={<Dashboard />} />
                         <Route path="playlists" element={<Playlists />} />
+                    
                     </Routes>
                     
                 </userContext.Provider>
+                
             </BrowserRouter>
+           
         </>
     );
 }

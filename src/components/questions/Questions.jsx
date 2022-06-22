@@ -7,11 +7,13 @@ import { userContext } from "../../App";
 import CssBaseline from "@mui/material/CssBaseline";
 import * as React from "react";
 import Image from "../images/banner1.png"
+import TemporaryDrawer from "../navbar/drawer";
+import Footer from "../navbar/footer";
 
 
 const styles = {
   heroContainer: {
-    height: 800,
+    height: 1150,
     backgroundImage: `url(${Image})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -271,14 +273,16 @@ export default function Quiz(props) {
   }
     return (
      <>
+     
      <Paper style={styles.heroContainer}>
 
-    
+     <TemporaryDrawer/>
      
         <center>
         
        
-        <Card sx={{ width: 600, height: 800 }}>
+        <Card sx={{ bgcolor: '#F3E5F5', boxShadow: 5,
+          borderRadius: 2, width: 600, height: 900 }}>
       <CardContent>
       
       
@@ -291,8 +295,13 @@ export default function Quiz(props) {
         
         <Typography variant="h6">Name of Playlist?</Typography>
         <br></br>
-        <Button variant="contained" onClick={generatePlaylist}>Create Playlist</Button>
+       
+        
         <TextField id="standard-basic" label="" variant="standard" inputRef={playlistInput}/>
+        <br></br>
+        <br></br>
+        <br></br>
+        <center><Button variant="contained" onClick={generatePlaylist}>Create Playlist</Button></center>
         
         <br></br>
         <br></br>
@@ -426,10 +435,11 @@ export default function Quiz(props) {
           
           </CardContent>
           </Card>
-          
+          <Footer />
           </center>
           
           </Paper>
+          
     </>  
     );
   }
