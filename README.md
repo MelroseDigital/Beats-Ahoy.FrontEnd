@@ -1,5 +1,5 @@
 ## Beats Ahoy: Front-End, UI
-![](baAssets/BeatsAhoyPPT.svg)
+
 
 
 ## Description
@@ -41,3 +41,4 @@ Application must leverage the full stack:
 -   Java API will leverage Spring's MockMvc for integration/e2e tests of controller endpoints
 -   Java API will be adequately documented (Java Docs and web endpoint documentation [Swagger/OpenAPI])
 -   At least one external API must be leveraged
+![](baAssets/BeatsAhoyPPT.svg)
