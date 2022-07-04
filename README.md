@@ -14,7 +14,7 @@ Application must leverage the full stack:
 -   API built with Java 8 and Spring 5
 -   UI built with React
 
-##Tech Stack
+## Tech Stack
 
 Front-End: React, Material UI, NPM, Axios
 Back-End: Azure SQL, Java 8, Spring 5, CI/CD Azure DevOps
