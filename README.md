@@ -19,7 +19,9 @@ Application must leverage the full stack:
 Front-End: React, Material UI, NPM, Axios
 Back-End: Azure SQL, Java 8, Spring 5, CI/CD Azure DevOps
 Testing: Junit, Mockito
-🛠 Skills
+
+
+## Skills 🛠
 
 Java, Javascript, HTML, CSS...
 
